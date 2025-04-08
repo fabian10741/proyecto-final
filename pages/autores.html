@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Biblioteca Web</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+
+            <li>
+                <a href="./libros.html">Libros</a>
+                <ul>
+                    <li><a href="./crear_libro.html">Crear</a></li>
+                    
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Autores</a>
+                <ul>
+                    <li><a href="./crearAutor.html">Crear</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+    <div class="buscador">
+        <form action="">
+        <div class="input-con-icono">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+                type="text"
+                class="buscar"
+                id="buscarAutor"
+                placeholder="Buscar autor por nombre"
+
+            />
+            </div>
+            <button id="buscar" class="boton" type="button">Buscar</button>
+        </form>
+        </div>
+
+        <div class="resultado" id="cards">
+
+    </section>
+</main>
+<script src="../js/modificarAutor.js"></script>
+<script src="../js/eliminarAutor.js"></script>
+<script src="../js/buscarAutor.js"></script>
+<script src="../js/barrabuscarAutor.js"></script>
+</body>
+</html>
