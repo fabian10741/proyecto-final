@@ -15,8 +15,8 @@ app.use(http.json())//ojo sin esto no reconoce un json NO BORRAR
 
 app.use(cors())
 
-const conexion = 'mongodb://localhost:27017/biblioteca'
-mongoose.connect('mongodb://localhost:27017/biblioteca')
+const conexion = 'mongodb://127.0.0.1:27017/bdbootcampProyecto'
+mongoose.connect('mongodb://127.0.0.1:27017/bdbootcampProyecto')
 
     .then(() => console.log('conexion establecida a MongoDB'))
     .catch(err => console.error('Error al conectar a MongoDB:', err))
